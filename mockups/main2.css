@@ -1,0 +1,39 @@
+
+img{
+    height: 140px; 
+}
+h3 {
+    text-align: center;
+}
+a {
+    color:#212121;
+    display: inline;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+img{
+    height: 140px; 
+}          
+.topnav {
+    overflow: hidden;
+    background-color: #212121;
+}           
+.topnav a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}           
+.topnav a:hover {
+    background-color:  #4CAF50;
+    color: #212121;
+}           
+.topnav a.active {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
