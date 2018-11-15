@@ -16,7 +16,7 @@ function addProductsToWebpage() {
     for ( i in listOfProducts) {
         var li = document.createElement('li');
         li.setAttribute('class','styles');
-        li.setAttribute('style','list-style-type:none;padding-top:27px;');
+        li.setAttribute('style','list-style-type:none;padding-top:37px;');
         var h3 = document.createElement('h3');
         h3.innerText = listOfProducts[i].title;
         h3.setAttribute('style','text-align: center;')
