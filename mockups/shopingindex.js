@@ -10,6 +10,7 @@ function loadProducts() {
 });
 };
 function initSite() {
+    $("#count-cart").html(shoppingCart.countCart());
 loadProducts();}
 function addProductsToWebpage() {
     var ul = document.createElement('ul');
