@@ -105,32 +105,4 @@ $("#show-cart").on("change", ".item-count", function(event) {
     shoppingCart.setCountForItem(name,count);
     displayCart();
 })
-//var array = listCart()
- /*       
-function handleOnSubtractClick() {
-    var name = $(this).attr("data-name");
-    shoppingCart.removeItemFromCart(name);
-    
-    // TODO: Get input element and update combined price
-    updateTotalPrice();
-}*/
-/*function handleOnPlusClick() {
-     
-    $(document).ready(function(){
-     $("button").click(function(){
-         $(".show-cart").hide();
-     });
- });
-}
-handleOnPlusClick();*/
-
-/*function updateTotalItem() {
-
-       $(document).ready(function(){
-        $("button").click(function(){
-            $("#show-cart").hide();
-        });
-    });
-}*/
-
 displayCart();

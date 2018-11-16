@@ -61,7 +61,6 @@ shoppingCart.countCart = function () {
         totalCount +=this.cart[i].count;
     }
     return totalCount;
-    this.saveCart();
 };
 shoppingCart.totalCart = function () {
     var totalCost = 0;
@@ -69,7 +68,6 @@ shoppingCart.totalCart = function () {
         totalCost +=(this.cart[i].price)*this.cart[i].count; 
     }
     return totalCost.toFixed(2);
-    this.saveCart();
 };
 shoppingCart.listCart = function () {
 var cartCopy = [];
@@ -84,7 +82,6 @@ for (var i in this.cart) {
     cartCopy.push(itemCopy);
 }
 return cartCopy;
-this.saveCart();
 };
 shoppingCart.saveCart = function () {
     localStorage.setItem('shoppingCart', JSON.stringify(this.cart));
