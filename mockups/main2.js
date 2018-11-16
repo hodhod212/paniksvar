@@ -69,7 +69,7 @@ function  displayCart() {
         Button3.innerHTML ="<i class='fa fa-trash-o' style='font-size:16px;color:white'> Ta bort</i>";
         Button3.setAttribute('style','background-color:#E64E4E;color:white;border-radius:0 5px 5px 0;')
         product.appendChild(Button3);
-        document.getElementById("show-cart").appendChild(product); 
+        document.getElementById("show-cart").appendChild(product); }
 $("#show-cart").on("click", ".delete-item", function(event){ 
 var name = $(this).attr("data-name");
 shoppingCart.removeItemFromCartAll(name);
@@ -79,7 +79,7 @@ $("#clear-cart").click(function(event){
 shoppingCart.ClearCart();
 displayCart();
 });
-}
+
 // $("#show-cart").html(output);
 $("#count-cart").html(shoppingCart.countCart());
 $("#total-cart").html(shoppingCart.totalCart());
