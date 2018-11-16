@@ -9,7 +9,7 @@ function myFunction() {
 }
 function klar() {
     alert("Du har slutfört ditt köp.");
-   // $(".show-cart li").remove();
+    $(".show-cart li").remove();
 }
 $(".add-to-cart").click(function(event) {
     event.preventDefault();

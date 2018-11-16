@@ -55,8 +55,7 @@ function addProductsToWebpage() {
     });
         function  displayCart() {
         var cartArray = shoppingCart.listCart();
-        var output = "";
-                
+        var output = "";      
         $("#show-cart").html(output);
         $("#count-cart").html(shoppingCart.countCart());
         $("#total-cart").html(shoppingCart.totalCart());
@@ -83,7 +82,7 @@ function addProductsToWebpage() {
         displayCart();
     })   
 } 
-    displayCart();
+    //displayCart();
    
 
    
