@@ -22,3 +22,6 @@ ul {
 .topnav a.active {
     background-color: #4CAF50; color: #FFFFFF; 
 }
+.topnav div{
+    height:40px;background-color:#212121; position:fixed;width: 100%;
+}

@@ -82,7 +82,7 @@ function addProductsToWebpage() {
         displayCart();
     })   
 } 
-    //displayCart();
+  
    
 
    
