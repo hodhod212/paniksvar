@@ -1,0 +1,68 @@
+body {
+ margin: 0;
+ padding: 0;    
+ background-image: url(./metro-3714290_1920.jpg);
+ background-size: cover; 
+ background-repeat: no-repeat;
+}
+
+.loginAndregBacgr{
+    margin-top: 7em;
+    background-color: white;
+}
+.loginContainer {
+     background-color: white;
+     height: 30em;
+     border-width: 5px;
+     border-style: solid;
+     border-radius: 15px;     
+}
+
+.titleText {
+    font-size: 20px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+
+.centerAll{
+    display: flex;
+    justify-content: center;
+}
+.centerThisDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.imgRegister {
+    width: 10em;
+    height: 10em;   
+}
+
+.maringTopButton{
+    margin-top: 12px;
+}
+
+
+@media screen and (max-width: 768px){
+
+body {
+    margin: 0;
+    padding: 0;    
+    background-image: url(./metro-3714290_1920.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.imgRegister{
+    width: 8em;
+    height: 8em;
+}
+
+}
+
+
+
